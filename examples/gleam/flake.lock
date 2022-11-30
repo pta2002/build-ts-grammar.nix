@@ -1,0 +1,102 @@
+{
+  "nodes": {
+    "flake-utils": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "flake-utils_2": {
+      "locked": {
+        "lastModified": 1667395993,
+        "narHash": "sha256-nuEHfE/LcWyuSWnS8t12N1wc105Qtau+/OdUAjtQ0rA=",
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "rev": "5aed5285a952e0b949eb3ba02c12fa4fcfef535f",
+        "type": "github"
+      },
+      "original": {
+        "owner": "numtide",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    },
+    "gleam": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1669665314,
+        "narHash": "sha256-aeho84P91cH13j7uLJwyD/zj8O/peROrpfa41HA/FGo=",
+        "owner": "gleam-lang",
+        "repo": "tree-sitter-gleam",
+        "rev": "97611918f79643ade377a156f3e4192cd50dc3e6",
+        "type": "github"
+      },
+      "original": {
+        "owner": "gleam-lang",
+        "repo": "tree-sitter-gleam",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1668765800,
+        "narHash": "sha256-rC40+/W6Hio7b/RsY8SvQPKNx4WqNcTgfYv8cUMAvJk=",
+        "path": "/nix/store/p6xfpp6i1a2h4ia3v81d1r414v6a603i-source",
+        "rev": "52b2ac8ae18bbad4374ff0dd5aeee0fdf1aea739",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1668765800,
+        "narHash": "sha256-rC40+/W6Hio7b/RsY8SvQPKNx4WqNcTgfYv8cUMAvJk=",
+        "path": "/nix/store/p6xfpp6i1a2h4ia3v81d1r414v6a603i-source",
+        "rev": "52b2ac8ae18bbad4374ff0dd5aeee0fdf1aea739",
+        "type": "path"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "flake-utils": "flake-utils",
+        "gleam": "gleam",
+        "nixpkgs": "nixpkgs",
+        "ts-build": "ts-build"
+      }
+    },
+    "ts-build": {
+      "inputs": {
+        "flake-utils": "flake-utils_2",
+        "nixpkgs": "nixpkgs_2"
+      },
+      "locked": {
+        "lastModified": 0,
+        "narHash": "sha256-+TK3BA+wANRYqaX9297thEae/G2OetFnSjk192dydT4=",
+        "path": "/nix/store/h5ana4ma21hzrfy0l78jfs4yvqq5cz4n-source",
+        "type": "path"
+      },
+      "original": {
+        "path": "/nix/store/h5ana4ma21hzrfy0l78jfs4yvqq5cz4n-source",
+        "type": "path"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
