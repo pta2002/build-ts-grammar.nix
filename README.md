@@ -1,5 +1,8 @@
 # Build tree-sitter grammars with Nix
 
+## !! DON'T USE THIS !!
+It does not work anymore! Instead, the functionality here has now been upstreamed. Just use `pkgs.tree-sitter.buildGrammar`.
+
 This is just a simple flake to help you build custom tree-sitter grammars on
 Nix, for usage with, for example, neovim.
 
