@@ -6,14 +6,15 @@
       buildGrammar = pkgs:
         { language
         , version
-        , source
+        , src
         , generate ? false
         , location ? null
         , ...
         }: with pkgs;stdenv.mkDerivation {
           pname = "${language}-grammar";
           name = "${language}-grammar";
-          src = source;
+
+          inherit src version;
 
           nativeBuildInputs = lib.optionals generate [ nodejs tree-sitter ];
 
